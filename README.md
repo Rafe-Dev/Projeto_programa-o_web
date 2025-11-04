@@ -12,7 +12,7 @@ O tema do novo Crud escolhido foi a criação de uma loja de jogos online funcio
 
 -- DESAFIOS --
 
-Foi presenciado diversos desafios técnicos e conceituais, que exigiram pesquisa, testes e ajustes no código para que tudo funcionasse corretamente. Dentre os desafios passados, tiveram a conexão com o banco de dados e a exibição das imagens dos jogos que estava com vários problemas.
+Foi presenciado diversos desafios técnicos especialmente na parte de compras que infelizmente não funcionou. Com isso, foi realizado testes e ajustes no código para que todo o resto do código funcionasse corretamente. Dentre os desafios passados, tiveram a conexão com o banco de dados e a exibição das imagens dos jogos que estava com vários problemas.
 
 
 -- REQUISITOS PARA RODAR --
