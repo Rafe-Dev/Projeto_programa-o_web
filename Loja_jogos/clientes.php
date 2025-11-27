@@ -1,16 +1,16 @@
 <?php
-// clientes.php
+
 include('conexao.php');
 include('header.php');
 
-// Processa cadastro se formulário enviado
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['salvar'])) {
-    // Recebe e limpa dados (trim)
+   
     $nome = trim($_POST['nome'] ?? '');
     $email = trim($_POST['email'] ?? '');
     $telefone = trim($_POST['telefone'] ?? '');
 
-    // Inserção segura com prepared statement
+  
     $sql = "INSERT INTO clientes (nome, email, telefone) VALUES (?, ?, ?)";
     $stmt = mysqli_prepare($conexao, $sql);
     mysqli_stmt_bind_param($stmt, "sss", $nome, $email, $telefone);
@@ -23,7 +23,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['salvar'])) {
     mysqli_stmt_close($stmt);
 }
 
-// Busca clientes para listar
+
 $sql2 = "SELECT * FROM clientes ORDER BY id DESC";
 $res = mysqli_query($conexao, $sql2);
 ?>
@@ -58,7 +58,7 @@ $res = mysqli_query($conexao, $sql2);
   </div>
 </div>
 
-<!-- Lista de clientes -->
+
 <h3 class="text-center text-light mt-5">Clientes Cadastrados</h3>
 <div class="table-responsive mt-3">
   <table class="table table-dark table-striped align-middle">

@@ -1,6 +1,5 @@
 <?php
-// header.php
-// Inclua este arquivo no topo das páginas para carregar o cabeçalho e o CSS.
+
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -9,17 +8,17 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Loja de Jogos</title>
 
-  <!-- Bootstrap 5 CSS (CDN) -->
+ 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Optional: Bootstrap Icons (usado em algumas seções) -->
+ 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
 
-  <!-- CSS personalizado -->
+ 
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Navbar principal (tema escuro) -->
+ 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark-custom">
     <div class="container">
       <a class="navbar-brand fw-bold" href="index.php">🎮 Loja de Jogos</a>
@@ -38,5 +37,5 @@
     </div>
   </nav>
 
-  <!-- Container principal -->
+
   <main class="container my-4">

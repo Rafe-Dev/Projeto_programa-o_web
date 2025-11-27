@@ -4,7 +4,7 @@
 <div class="container my-5 text-center text-light">
     <h1 class="mb-4 text-warning">Sobre Nós</h1>
 
-    <!-- Imagem da equipe -->
+   
     <div class="d-flex justify-content-center mb-4">
         <img src="imagens_site/equipe-sobre.png" 
              alt="Equipe da Loja de Jogos" 
